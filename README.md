@@ -32,7 +32,7 @@ Selecting  any widget will display all details related to the widget in user fri
 ~~~
 To use Decisive picker,Portfolio picker widgets,first the user has to provide contents in the Data manager.
 ~~~
-![dataManager](screens/dataManager.JPG)
+![dataManager](screens/dataManager.jpg)
 
 ![addDetails](screens/addDetails.JPG)
 
