@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="site:">
+	<tab id="global" sortorder="15" title="preside-objects.site:global.tab.title">
+		<fieldset id="global" sortorder="10">
+			<field binding="site.logo_title"     sortorder="10" control="textinput" placeholder="arcana"/>
+			<field binding="site.logo_subtitle"  sortorder="20" control="textinput" placeholder="by HTML5 Up"/>
+			<field binding="site.body"  sortorder="30" control="richeditor"/>
+			<field binding="site.footer_links"   sortorder="40" control="objectpicker" object="footerlink_category" sortable="true" quickadd="true" multiple="true" quickedit="true" />
+			<field binding="site.footer_socialmedia" sortorder="50" control="objectpicker" object="social_media" sortable="true" quickadd="true" quickedit="true" multiple="true" />
+			<field binding="site.footer_copyright"   sortorder="60"   control="textinput" />
+		</fieldset>
+	</tab>
+</form>

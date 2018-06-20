@@ -1,0 +1,1 @@
+<cfoutput>#translateResource( uri='widgets.portfolio_picker:title' )#</cfoutput>

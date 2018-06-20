@@ -1,0 +1,1 @@
+<cfoutput>#translateResource( uri='widgets.linkPicker:title' )#</cfoutput>

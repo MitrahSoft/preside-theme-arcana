@@ -1,0 +1,10 @@
+<form i18nBaseUri="widgets.adjacent_picker:">
+    <tab id="default">
+        <fieldset id="default" sortorder="10">
+            <field name="adjacent_header" 		control="textinput" required="true" />
+            <field name="adjacent_link" 		control="textinput" required="true" />
+            <field name="adjacent_link_title" 	control="textinput" required="true" />
+            <field name="adjacent_desc" 		control="textarea"  required="true" />
+        </fieldset>
+    </tab>
+</form>

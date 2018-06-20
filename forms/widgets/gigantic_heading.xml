@@ -1,0 +1,8 @@
+<form i18nBaseUri="widgets.gigantic_heading:">
+    <tab id="default">
+        <fieldset id="default" sortorder="10">
+            <field name="title" 	control="textinput" required="true" />
+            <field name="subTitle" 	control="textinput" required="true" />
+        </fieldset>
+    </tab>
+</form>

@@ -1,0 +1,1 @@
+<cfoutput>#translateResource( uri='widgets.decisive_picker:title' )#</cfoutput>
