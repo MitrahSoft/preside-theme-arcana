@@ -1,5 +1,7 @@
 # PresideCMS Extension: Arcana Preside Theme
 
+![addDetails](screens/HomePage.jpg)
+
 This is a free Preside CMS Theme. You can use this theme for your website or use it as a reference for developing a Preside theme. The theme will show you the basic concept of Preside CMS, how to create objects, how to overwrite templates and etc. It's really a good starter template for the beginners.
 
 ## Installation
