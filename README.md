@@ -49,6 +49,6 @@ From the root of your application, type the following command:
 
 ### CommandBox (box.json) method
 
-From the root of your application, type the following command:
+From the extension folder of your application, type the following command:
 
     box install MitrahSoft/preside-theme-arcana
