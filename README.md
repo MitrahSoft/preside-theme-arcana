@@ -51,4 +51,4 @@ From the root of your application, type the following command:
 
 From the root of your application, type the following command:
 
-    box install pixl8/preside-theme-arcana
+    box install MitrahSoft/preside-theme-arcana
