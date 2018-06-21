@@ -1,0 +1,24 @@
+{
+    "name":"preside-theme-arcana",
+    "type":"preside-extensions",
+    "version":"1.0",
+    "location":"https://github.com/MitrahSoft/preside-theme-arcana/archive/master.zip",
+    "author":"MitrahSoft",
+    "directory":"application/extensions",
+    "homepage":"https://github.com/MitrahSoft/preside-theme-arcana",
+    "documentation":"https://github.com/MitrahSoft/preside-theme-arcana",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/MitrahSoft/preside-theme-arcana/"
+    },
+    "bugs":"https://github.com/MitrahSoft/preside-theme-arcana/issues",
+    "slug":"preside-theme-arcana",
+    "projectURL":"https://github.com/MitrahSoft/preside-theme-arcana",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".travis.yml",
+        ".twgit_features_subject",
+        "*.sh"
+    ]
+}
