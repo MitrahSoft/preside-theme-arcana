@@ -1,7 +1,7 @@
 <cfparam name="args.banner_title"       field="homepage.banner_title"       editable="true" />
 <cfparam name="args.banner_subTitle"    field="homepage.banner_subTitle"    editable="true" />
 <cfparam name="args.main_content"    	field="homepage.middle_content"     editable="true" />
-<cfparam name="args.banner_moreLink"    field="homepage.banner_moreLink"    editable="false" />
+<cfparam name="args.banner_moreLink"     editable="false" />
 
 <cfscript>
 	prc.body_class = "homepage";
@@ -19,7 +19,8 @@
 					<em> "Another fine freebie by HTML5 UP" </em>
 				</cfif>
 			</h2>
-			<a href="#args.banner_moreLink#" class="button">Learn More</a>
+			
+			<a href="#args.banner_moreLink#" class="button">#args.banner_moreLinkTitle#</a>
 		</header>
 	</section>
 

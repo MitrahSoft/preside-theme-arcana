@@ -4,7 +4,7 @@
 		<fieldset id="main">
 			<field sortorder="40" binding="homepage.banner_title"      	control="textInput" />
 			<field sortorder="50" binding="homepage.banner_subTitle"   	control="textInput" />
-			<field sortorder="50" binding="homepage.banner_moreLink"   	control="textInput" />
+			<field sortorder="50" binding="homepage.banner_moreLink"   	control="linkPicker" />
 			<field sortorder="50" binding="homepage.middle_content" 	control="richeditor" />
 
 			<field binding="page.sidebar_content" deleted="true" />
