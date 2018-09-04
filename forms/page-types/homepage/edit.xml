@@ -2,13 +2,13 @@
 <form i18nBaseUri="page-types.homepage:">
 	<tab id="main">
 		<fieldset id="main">
-			<field sortorder="40" binding="homepage.banner_title"      	control="textInput" />
-			<field sortorder="50" binding="homepage.banner_subTitle"   	control="textInput" />
-			<field sortorder="50" binding="homepage.banner_moreLink"   	control="linkPicker" />
-			<field sortorder="50" binding="homepage.middle_content" 	control="richeditor" />
+			<field sortorder="10" binding="homepage.banner_title"      	control="textInput" />
+			<field sortorder="20" binding="homepage.banner_subTitle"   	control="textInput" />
+			<field sortorder="30" binding="homepage.banner_moreLink"   	control="linkPicker" />
+			<field sortorder="40" binding="page.main_image"      			 	control="assetPicker" />
+			<field sortorder="50" binding="homepage.middle_content" 		control="richeditor" />
 
 			<field binding="page.sidebar_content" deleted="true" />
-			<field binding="page.main_image"      deleted="true" />
 			<field binding="page.main_content"    deleted="true" />
 			<field binding="page.teaser"          deleted="true" />
 			<field binding="page.subheading"      deleted="true" />

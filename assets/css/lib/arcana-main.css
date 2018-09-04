@@ -2477,18 +2477,11 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../../img/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		height: 28em;
 		text-align: center;
 		position: relative;
 	}
 
 		#banner header {
-			position: absolute;
-			bottom: 0;
-			left: 0;
 			width: 100%;
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
@@ -2623,12 +2616,6 @@
 			body, input, select, textarea {
 				font-size: 14pt;
 				line-height: 1.5em;
-			}
-
-		/* Banner */
-
-			#banner {
-				height: 24em;
 			}
 
 	}
