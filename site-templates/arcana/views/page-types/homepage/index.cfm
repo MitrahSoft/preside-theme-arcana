@@ -25,7 +25,7 @@
 					</h2>
 				</cfif>
 
-				<cfif !isEmpty(args.banner_title) || !isEmpty(args.banner_subTitle)>
+				<cfif !isEmpty(args.banner_moreLink)>
 					<a href="#args.banner_moreLink#" class="button">#args.banner_moreLinkTitle#</a>
 				</cfif>
 
