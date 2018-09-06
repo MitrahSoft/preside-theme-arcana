@@ -1,14 +1,21 @@
 <cfscript>
 	site 	   		= event.getSite();
-	logo_text  		= !IsEmpty(site.logo_title) ? site.logo_title : "arcana";
-	logo_subheading = !IsEmpty(site.logo_subtitle) ? site.logo_subtitle : "Another fine freebie by HTML5 UP";
+	logo_text  		= !IsEmpty(site.logo_title) ? site.logo_title : "";
+	logo_subheading = !IsEmpty(site.logo_subtitle) ? "<em>#site.logo_subtitle#</em>" : "";
     mainNav    		= renderViewlet( event="core.Navigation.mainNavigation", args={ depth = 2  });
 </cfscript>
 
 <cfoutput>
 	<!-- Header -->
 	<div id="header">
-		<h1><a href="/" id="logo">#logo_text# <em>#logo_subheading#</em></a></h1>
+		
+		<cfif !isEmpty(site.logo_image)>
+			#renderAsset(assetID=site.logo_image)#
+		</cfif>
+		
+		<cfif !isEmpty(logo_text) || !isEmpty(logo_subheading)>
+			<h1><a href="/" id="logo">#logo_text# #logo_subheading#</a></h1>
+		</cfif>
 
 		<!-- Nav -->
 		<nav id="nav">
